@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "experience": "Expérience",
+    "certifications": "Certifications",
+    "contact": "Contact",
+    "downloadCV": "Télécharger CV"
+  },
+  "hero": {
+    "greeting": "Bonjour, je suis",
+    "title": "Développeur Full-Stack",
+    "subtitle": "Backend Java/Spring Boot & Android/Kotlin",
+    "philosophy": "Je conçois des APIs REST scalables, des applications Android natives robustes et des architectures backend complètes. En stage chez Admira (IoT & IA), ouvert aux nouvelles opportunités.",
+    "cta_projects": "Voir mes projets",
+    "cta_cv": "Télécharger CV",
+    "location": "Barcelone, Catalogne"
+  },
+  "about": {
+    "label": "À propos",
+    "title": "Développeur backend-first,\nà la recherche d'opportunités",
+    "bio": "Spécialisé en backend Java/Spring Boot et développement Android Kotlin. Je construis l'architecture serveur qui alimente produits mobiles et web — de la conception d'API jusqu'au déploiement. Solide bagage en ingénierie, actuellement à la recherche d'un poste IT à temps plein.",
+    "languages_label": "Langues parlées",
+    "languages": [
+      { "name": "Français", "level": "C1" },
+      { "name": "Espagnol", "level": "B2" },
+      { "name": "Anglais", "level": "B1/B2" },
+      { "name": "Catalan", "level": "A2" }
+    ],
+    "values": [
+      {
+        "title": "Backend Scalable",
+        "desc": "APIs REST avec Spring Boot, JPA, JWT et une architecture MVC solide."
+      },
+      {
+        "title": "Android Natif",
+        "desc": "Apps Kotlin avec Retrofit, ViewModel et Fragments — de l'UI à l'API."
+      },
+      {
+        "title": "IoT & Temps Réel",
+        "desc": "Expérience sur pipelines de données et analytics temps réel chez Admira."
+      },
+      {
+        "title": "Multilingue",
+        "desc": "À l'aise dans des équipes internationales — Français, Espagnol, Anglais, Catalan."
+      }
+    ]
+  },
+  "skills": {
+    "label": "Compétences",
+    "title": "Expertise\ntechnique",
+    "categories": {
+      "backend": "Backend",
+      "mobile": "Mobile",
+      "database": "Bases de données",
+      "devops": "DevOps & Outils",
+      "other": "Autres"
+    }
+  },
+  "projects": {
+    "label": "Projets",
+    "title": "Travaux\nsélectionnés",
+    "github": "Voir sur GitHub",
+    "type_backend": "Backend",
+    "type_mobile": "App Mobile",
+    "type_web": "Web",
+    "type_api": "API Backend"
+  },
+  "experience": {
+    "label": "Expérience",
+    "title": "Expérience\nprofessionnelle",
+    "present": "Stage actif",
+    "missions_label": "Missions",
+    "highlights_label": "Contributions clés",
+    "open_to_work": "Disponible.",
+    "open_to_work_desc": "Ouvert à des postes en backend, Android ou développement full-stack.",
+    "contact_me": "Me contacter",
+    "admira": {
+      "role": "Développeur Logiciel (Stage)",
+      "company": "Admira (Bits & Atoms)",
+      "period": "Oct 2025 – Présent",
+      "location": "Barcelone, Espagne",
+      "tasks": [
+        "Développement Digital Signage & IoT multiplateforme (Linux, Windows, Android)",
+        "Intégration Machine Learning et IA pour l'automatisation et l'analytics temps réel",
+        "Conception d'architecture backend scalable et refactoring de code legacy"
+      ],
+      "highlights": [
+        "Travail sur des systèmes en production déployés sur plusieurs environnements OS",
+        "Application de modèles ML sur des flux de données en temps réel en contexte IoT industriel",
+        "Contribution au refactoring backend améliorant la maintenabilité du système",
+        "Collaboration en équipe agile sur la livraison de logiciels multiplateformes"
+      ]
+    }
+  },
+  "certifications": {
+    "label": "Certifications",
+    "title": "Certifications &\nformation",
+    "status_ongoing": "En cours",
+    "status_completed": "Complété",
+    "list": [
+      {
+        "title": "Android 14 & Kotlin Development",
+        "issuer": "Udemy",
+        "status": "ongoing"
+      },
+      {
+        "title": "Programmation de bases de données avec SQL",
+        "issuer": "Oracle",
+        "status": "completed"
+      },
+      {
+        "title": "Développeur Python",
+        "issuer": "Udemy",
+        "status": "completed"
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Travaillons\nensemble",
+    "subtitle": "Ouvert aux postes à temps plein, missions freelance et projets intéressants. Je réponds rapidement.",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "subject": "Sujet",
+      "message": "Message",
+      "send": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé avec succès !",
+      "error": "Une erreur s'est produite. Veuillez réessayer."
+    },
+    "links": {
+      "email": "M'écrire",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  },
+  "footer": {
+    "copy": "Omar Mehenni. Construit avec Next.js & Tailwind CSS.",
+    "rights": "Tous droits réservés."
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "certifications": "Certifications",
+    "contact": "Contact",
+    "downloadCV": "Download CV"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "title": "Full-Stack Developer",
+    "subtitle": "Backend Java/Spring Boot & Android/Kotlin",
+    "philosophy": "I design scalable REST APIs, robust native Android apps, and complete backend architectures. Currently in internship at Admira (IoT & AI), open to new opportunities.",
+    "cta_projects": "View my work",
+    "cta_cv": "Download CV",
+    "location": "Barcelona, Cataluña"
+  },
+  "about": {
+    "label": "About",
+    "title": "Backend-first developer,\nopen to opportunities",
+    "bio": "Specialized in Java/Spring Boot backend and Android Kotlin development. I build the server-side architecture that powers mobile and web products — from API design to deployment. Rigorous engineering background, currently looking for a full-time IT position.",
+    "languages_label": "Languages spoken",
+    "languages": [
+      { "name": "French", "level": "C1" },
+      { "name": "Spanish", "level": "B2" },
+      { "name": "English", "level": "B1/B2" },
+      { "name": "Catalan", "level": "A2" }
+    ],
+    "values": [
+      {
+        "title": "Scalable Backend",
+        "desc": "REST APIs built with Spring Boot, JPA, JWT and solid MVC architecture."
+      },
+      {
+        "title": "Android Native",
+        "desc": "Kotlin apps with Retrofit, ViewModel and Fragments — from UI to API integration."
+      },
+      {
+        "title": "IoT & Real-time",
+        "desc": "Experience building data pipelines and real-time analytics at Admira."
+      },
+      {
+        "title": "Multilingual",
+        "desc": "Comfortable working in international teams — French, Spanish, English, Catalan."
+      }
+    ]
+  },
+  "skills": {
+    "label": "Skills",
+    "title": "Technical\nexpertise",
+    "categories": {
+      "backend": "Backend",
+      "mobile": "Mobile",
+      "database": "Databases",
+      "devops": "DevOps & Tools",
+      "other": "Other"
+    }
+  },
+  "projects": {
+    "label": "Projects",
+    "title": "Selected\nwork",
+    "github": "View on GitHub",
+    "type_backend": "Backend",
+    "type_mobile": "Mobile App",
+    "type_web": "Web",
+    "type_api": "Backend API"
+  },
+  "experience": {
+    "label": "Experience",
+    "title": "Professional\nexperience",
+    "present": "Active internship",
+    "missions_label": "Missions",
+    "highlights_label": "Key contributions",
+    "open_to_work": "Open to work.",
+    "open_to_work_desc": "Available for full-time positions in backend, Android or full-stack development.",
+    "contact_me": "Get in touch",
+    "admira": {
+      "role": "Software Developer Intern",
+      "company": "Admira (Bits & Atoms)",
+      "period": "Oct 2025 – Present",
+      "location": "Barcelona, Spain",
+      "tasks": [
+        "Multiplatform Digital Signage & IoT development (Linux, Windows, Android)",
+        "Machine Learning and AI integration for automation and real-time analytics",
+        "Scalable backend architecture design and legacy code refactoring"
+      ],
+      "highlights": [
+        "Worked on production-grade systems deployed across multiple OS environments",
+        "Applied ML models to real-time data streams in an industrial IoT context",
+        "Contributed to backend refactoring that improved system maintainability",
+        "Collaborated in an agile team on cross-platform software delivery"
+      ]
+    }
+  },
+  "certifications": {
+    "label": "Certifications",
+    "title": "Certifications &\ntraining",
+    "status_ongoing": "In progress",
+    "status_completed": "Completed",
+    "list": [
+      {
+        "title": "Android 14 & Kotlin Development",
+        "issuer": "Udemy",
+        "status": "ongoing"
+      },
+      {
+        "title": "Database Programming with SQL",
+        "issuer": "Oracle",
+        "status": "completed"
+      },
+      {
+        "title": "Python Developer",
+        "issuer": "Udemy",
+        "status": "completed"
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's work\ntogether",
+    "subtitle": "Open to full-time positions, freelance missions, and interesting projects. I respond quickly.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Something went wrong. Please try again."
+    },
+    "links": {
+      "email": "Email me",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  },
+  "footer": {
+    "copy": "Omar Mehenni. Built with Next.js & Tailwind CSS.",
+    "rights": "All rights reserved."
+  }
+}
