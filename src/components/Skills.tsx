@@ -6,64 +6,19 @@ import { useI18n } from "@/lib/i18n";
 
 const SKILL_DATA = {
   backend: [
-    { name: "Java", level: 90 },
-    { name: "Spring Boot", level: 88 },
-    { name: "JPA / Hibernate", level: 82 },
-    { name: "Spring Security", level: 80 },
-    { name: "JWT Auth", level: 85 },
-    { name: "REST APIs", level: 90 },
-    { name: "Architecture MVC", level: 85 },
+    "Java", "Spring Boot", "JPA / Hibernate", "Spring Security",
+    "JWT Auth", "REST APIs", "Architecture MVC","Maven / Gradle"
   ],
   mobile: [
-    { name: "Kotlin", level: 85 },
-    { name: "Android Studio", level: 87 },
-    { name: "Retrofit", level: 80 },
-    { name: "ViewModel / LiveData", level: 78 },
-    { name: "Fragments", level: 82 },
+    "Kotlin", "Android Studio","Jetpack Compose", "MVVM Architecture",
+     "Retrofit","ViewModel / LiveData","Coroutines"
   ],
-  database: [
-    { name: "MySQL", level: 85 },
-    { name: "PostgreSQL", level: 80 },
-    { name: "SQL", level: 88 },
-  ],
-  devops: [
-    { name: "Docker", level: 72 },
-    { name: "Git / GitHub", level: 88 },
-  ],
-  other: [
-    { name: "Python", level: 70 },
-    { name: "Machine Learning", level: 55 },
-    { name: "IoT", level: 65 },
-  ],
+  database: ["MySQL", "PostgreSQL", "SQL","Firebase Firestore", "MongoDB"],
+  devops: ["Docker", "Git / GitHub"],
+  other: ["Python", "Machine Learning", "IoT"],
 };
 
 type Category = keyof typeof SKILL_DATA;
-
-function SkillBar({ name, level, delay }: { name: string; level: number; delay: number }) {
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true });
-
-  return (
-    <div ref={ref} className="group">
-      <div className="flex justify-between items-center mb-1.5">
-        <span className="text-sm font-body text-white/70 group-hover:text-white transition-colors duration-200">
-          {name}
-        </span>
-        <span className="text-xs font-mono text-muted group-hover:text-accent transition-colors duration-200">
-          {level}%
-        </span>
-      </div>
-      <div className="h-px bg-border overflow-hidden rounded-full">
-        <motion.div
-          initial={{ width: 0 }}
-          animate={inView ? { width: `${level}%` } : { width: 0 }}
-          transition={{ duration: 1.2, delay, ease: [0.16, 1, 0.3, 1] }}
-          className="h-full bg-gradient-to-r from-accent/60 to-accent"
-        />
-      </div>
-    </div>
-  );
-}
 
 export default function Skills() {
   const { t } = useI18n();
@@ -122,44 +77,27 @@ export default function Skills() {
           ))}
         </motion.div>
 
-        {/* Skills grid */}
+        {/* Skills badges */}
         <motion.div
           key={active}
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
-          className="grid md:grid-cols-2 gap-x-16 gap-y-4 max-w-3xl"
+          className="flex flex-wrap gap-3"
         >
           {SKILL_DATA[active].map((skill, i) => (
-            <SkillBar key={skill.name} {...skill} delay={i * 0.08} />
+            <motion.span
+              key={skill}
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.3, delay: i * 0.05 }}
+              className="px-4 py-2 text-sm font-mono border border-border text-white/70 hover:border-accent/50 hover:text-accent transition-all duration-200 rounded bg-surface/40 cursor-default"
+            >
+              {skill}
+            </motion.span>
           ))}
         </motion.div>
 
-        {/* Tech badges — all at once */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={inView ? { opacity: 1 } : {}}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          className="mt-20 pt-12 border-t border-border"
-        >
-          <p className="text-xs font-mono uppercase tracking-widest text-muted mb-6">
-            Full stack
-          </p>
-          <div className="flex flex-wrap gap-2">
-            {[
-              "Java", "Spring Boot", "Kotlin", "Android", "Python",
-              "MySQL", "PostgreSQL", "Docker", "Git", "REST", "JWT",
-              "JPA", "MVC", "Retrofit", "IoT", "ML"
-            ].map((tech) => (
-              <span
-                key={tech}
-                className="px-3 py-1.5 text-xs font-mono border border-border text-muted hover:border-accent/40 hover:text-accent/80 transition-all duration-200 rounded cursor-default"
-              >
-                {tech}
-              </span>
-            ))}
-          </div>
-        </motion.div>
       </div>
     </section>
   );

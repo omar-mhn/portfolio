@@ -12,7 +12,7 @@ export const locales: { code: Locale; label: string; flag: string }[] = [
   { code: "en", label: "EN", flag: "🇬🇧" },
   { code: "fr", label: "FR", flag: "🇫🇷" },
   { code: "es", label: "ES", flag: "🇪🇸" },
-  { code: "ca", label: "CA", flag: "🏴" },
+  { code: "ca", label: "CA", flag: "🏴󠁥󠁳󠁣󠁴󠁿" },
 ];
 
 const translations: Record<Locale, typeof en> = { en, fr, es, ca };

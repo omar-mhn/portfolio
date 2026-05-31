@@ -12,7 +12,7 @@
     "greeting": "Bonjour, je suis",
     "title": "Développeur Full-Stack",
     "subtitle": "Backend Java/Spring Boot & Android/Kotlin",
-    "philosophy": "Je conçois des APIs REST scalables, des applications Android natives robustes et des architectures backend complètes. En stage chez Admira (IoT & IA), ouvert aux nouvelles opportunités.",
+    "philosophy": "Je conçois des APIs REST scalables, des applications Android natives robustes et des architectures backend complètes. Stage terminé — disponible pour de nouvelles opportunités.",
     "cta_projects": "Voir mes projets",
     "cta_cv": "Télécharger CV",
     "location": "Barcelone, Catalogne"
@@ -38,8 +38,8 @@
         "desc": "Apps Kotlin avec Retrofit, ViewModel et Fragments — de l'UI à l'API."
       },
       {
-        "title": "IoT & Temps Réel",
-        "desc": "Expérience sur pipelines de données et analytics temps réel chez Admira."
+        "title": "Systèmes Temps Réel",
+        "desc": "Pipelines de données et analytics temps réel dans un contexte IoT industriel."
       },
       {
         "title": "Multilingue",
@@ -70,7 +70,7 @@
   "experience": {
     "label": "Expérience",
     "title": "Expérience\nprofessionnelle",
-    "present": "Stage actif",
+    "present": "Stage terminé",
     "missions_label": "Missions",
     "highlights_label": "Contributions clés",
     "open_to_work": "Disponible.",
@@ -79,7 +79,7 @@
     "admira": {
       "role": "Développeur Logiciel (Stage)",
       "company": "Admira (Bits & Atoms)",
-      "period": "Oct 2025 – Présent",
+      "period": "Oct 2025 – Mai 2026",
       "location": "Barcelone, Espagne",
       "tasks": [
         "Développement Digital Signage & IoT multiplateforme (Linux, Windows, Android)",

@@ -12,7 +12,7 @@
     "greeting": "Hello, I'm",
     "title": "Full-Stack Developer",
     "subtitle": "Backend Java/Spring Boot & Android/Kotlin",
-    "philosophy": "I design scalable REST APIs, robust native Android apps, and complete backend architectures. Currently in internship at Admira (IoT & AI), open to new opportunities.",
+    "philosophy": "I design scalable REST APIs, robust native Android apps, and complete backend architectures. Internship completed — now open to new opportunities.",
     "cta_projects": "View my work",
     "cta_cv": "Download CV",
     "location": "Barcelona, Cataluña"
@@ -38,8 +38,8 @@
         "desc": "Kotlin apps with Retrofit, ViewModel and Fragments — from UI to API integration."
       },
       {
-        "title": "IoT & Real-time",
-        "desc": "Experience building data pipelines and real-time analytics at Admira."
+        "title": "Real-time Systems",
+        "desc": "Built data pipelines and real-time analytics systems in an industrial IoT context."
       },
       {
         "title": "Multilingual",
@@ -70,7 +70,7 @@
   "experience": {
     "label": "Experience",
     "title": "Professional\nexperience",
-    "present": "Active internship",
+    "present": "Completed internship",
     "missions_label": "Missions",
     "highlights_label": "Key contributions",
     "open_to_work": "Open to work.",
@@ -79,7 +79,7 @@
     "admira": {
       "role": "Software Developer Intern",
       "company": "Admira (Bits & Atoms)",
-      "period": "Oct 2025 – Present",
+      "period": "Oct 2025 – May 2026",
       "location": "Barcelona, Spain",
       "tasks": [
         "Multiplatform Digital Signage & IoT development (Linux, Windows, Android)",

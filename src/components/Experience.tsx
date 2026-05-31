@@ -58,10 +58,10 @@ export default function Experience() {
               </div>
             </div>
 
-            {/* Active badge */}
-            <div className="flex items-center gap-2 px-3 py-1.5 border border-accent/30 rounded bg-accent/5">
-              <div className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
-              <span className="text-xs font-mono text-accent uppercase tracking-wider">
+            {/* Completed badge */}
+            <div className="flex items-center gap-2 px-3 py-1.5 border border-white/20 rounded bg-white/5">
+              <div className="w-1.5 h-1.5 rounded-full bg-white/40" />
+              <span className="text-xs font-mono text-white/50 uppercase tracking-wider">
                 {t.experience.present}
               </span>
             </div>

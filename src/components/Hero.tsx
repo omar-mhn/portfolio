@@ -229,16 +229,6 @@ export default function Hero() {
                 </div>
               </div>
 
-              {/* Floating stat cards */}
-              <div className="absolute -top-4 -right-4 bg-surface border border-border rounded p-3 shadow-lg">
-                <p className="font-display font-bold text-2xl text-accent">4+</p>
-                <p className="text-xs text-muted font-mono">Languages spoken</p>
-              </div>
-
-              <div className="absolute -bottom-4 -left-4 bg-surface border border-border rounded p-3 shadow-lg">
-                <p className="font-display font-bold text-2xl text-accent">IoT</p>
-                <p className="text-xs text-muted font-mono">& AI at Admira</p>
-              </div>
             </motion.div>
           </div>
         </div>

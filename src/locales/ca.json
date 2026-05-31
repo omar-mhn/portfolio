@@ -12,7 +12,7 @@
     "greeting": "Hola, soc",
     "title": "Desenvolupador Full-Stack",
     "subtitle": "Backend Java/Spring Boot & Android/Kotlin",
-    "philosophy": "Dissenyo APIs REST escalables, aplicacions Android natives robustes i arquitectures backend completes. En pràctiques a Admira (IoT i IA), obert a noves oportunitats.",
+    "philosophy": "Dissenyo APIs REST escalables, aplicacions Android natives robustes i arquitectures backend completes. Pràctiques finalitzades — disponible per a noves oportunitats.",
     "cta_projects": "Veure els meus projectes",
     "cta_cv": "Descarregar CV",
     "location": "Barcelona, Catalunya"
@@ -38,8 +38,8 @@
         "desc": "Apps Kotlin amb Retrofit, ViewModel i Fragments — de la UI a l'API."
       },
       {
-        "title": "IoT & Temps Real",
-        "desc": "Experiència en pipelines de dades i analítica en temps real a Admira."
+        "title": "Sistemes en Temps Real",
+        "desc": "Pipelines de dades i analítica en temps real en un context IoT industrial."
       },
       {
         "title": "Multilingüe",
@@ -70,7 +70,7 @@
   "experience": {
     "label": "Experiència",
     "title": "Experiència\nprofessional",
-    "present": "Pràctiques actives",
+    "present": "Pràctiques completades",
     "missions_label": "Missions",
     "highlights_label": "Contribucions clau",
     "open_to_work": "Disponible.",
@@ -79,7 +79,7 @@
     "admira": {
       "role": "Desenvolupador de Programari (Pràctiques)",
       "company": "Admira (Bits & Atoms)",
-      "period": "Oct 2025 – Present",
+      "period": "Oct 2025 – Maig 2026",
       "location": "Barcelona, Espanya",
       "tasks": [
         "Desenvolupament Digital Signage & IoT multiplataforma (Linux, Windows, Android)",
