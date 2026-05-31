@@ -15,7 +15,7 @@ export default function Footer() {
             OM<span className="text-accent">.</span>
           </p>
           <p className="text-xs font-mono text-muted">
-            © {year} {t.footer.copy}
+            © {year} Omar Mehenni
           </p>
         </div>
 
