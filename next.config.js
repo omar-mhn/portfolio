@@ -6,6 +6,9 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: "/portfolio",
+  env: {
+    NEXT_PUBLIC_BASE_PATH: "/portfolio",
+  },
   
   typescript: {
     ignoreBuildErrors: true,

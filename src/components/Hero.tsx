@@ -190,8 +190,8 @@ export default function Hero() {
               </button>
 
               <a
-                href="/cv/Omar_Mehenni_CV.pdf"
-                download
+                href={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/cv/Omar_Mehenni_CV.pdf`}
+                download="Omar_Mehenni_CV.pdf"
                 className="flex items-center gap-3 px-6 py-3 border border-white/20 text-white/70 font-display font-semibold text-sm uppercase tracking-widest hover:border-accent/60 hover:text-accent transition-all duration-200 rounded"
               >
                 <Download size={14} />
