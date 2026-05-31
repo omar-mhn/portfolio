@@ -16,10 +16,10 @@ const PROJECTS = [
     type: "type_backend",
     github: "https://github.com/omar-mhn/RadioIsotop_API.git",
     liveUrl: "",
-    images: ["images/logo.svg"] as string[],
+    images: ["images/Logo.svg"] as string[],
     featured: true,
     inProgress: false,
-  },
+  },  
   {
     id: "smartfinance",
     title: "Smart Finance",
