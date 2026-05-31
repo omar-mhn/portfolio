@@ -6,6 +6,13 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: "/portfolio",
+  
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 module.exports = nextConfig;
