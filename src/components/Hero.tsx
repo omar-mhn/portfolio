@@ -190,7 +190,7 @@ export default function Hero() {
               </button>
 
               <a
-                href="/cv/cv%20Omar_mehenni-j.pdf"
+                href="/cv/Omar_Mehenni_CV.pdf"
                 download
                 className="flex items-center gap-3 px-6 py-3 border border-white/20 text-white/70 font-display font-semibold text-sm uppercase tracking-widest hover:border-accent/60 hover:text-accent transition-all duration-200 rounded"
               >

@@ -57,7 +57,7 @@ export default function Navbar() {
         <div className="hidden lg:flex items-center gap-4">
           <LanguageSwitcher />
           <a
-            href="/cv/cv%20Omar_mehenni-j.pdf"
+            href="/cv/Omar_Mehenni_CV.pdf"
             download
             className="flex items-center gap-2 px-4 py-2 text-xs font-mono uppercase tracking-widest border border-accent text-accent hover:bg-accent hover:text-background transition-all duration-200 rounded"
           >
@@ -92,7 +92,7 @@ export default function Navbar() {
             <div className="flex items-center justify-between pt-2">
               <LanguageSwitcher />
               <a
-                href="/cv/cv%20Omar_mehenni-j.pdf"
+                href="/cv/Omar_Mehenni_CV.pdf"
                 download
                 className="flex items-center gap-2 px-4 py-2 text-xs font-mono uppercase tracking-widest border border-accent text-accent hover:bg-accent hover:text-background transition-all duration-200 rounded"
               >
