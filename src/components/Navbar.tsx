@@ -78,13 +78,13 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="lg:hidden bg-background/98 backdrop-blur-md border-b border-border">
+        <div className="lg:hidden bg-background border-b border-border">
           <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col gap-4">
             {sections.map((s) => (
               <button
                 key={s}
                 onClick={() => scrollTo(s)}
-                className="text-left text-sm font-mono uppercase tracking-widest text-muted hover:text-white transition-colors duration-200 py-2 border-b border-border/40"
+                className="text-left text-sm font-mono uppercase tracking-widest text-white hover:text-accent transition-colors duration-200 py-2 border-b border-border/40"
               >
                 {t.nav[s as keyof typeof t.nav]}
               </button>
