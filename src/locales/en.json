@@ -10,8 +10,8 @@
   },
   "hero": {
     "greeting": "Hello, I'm",
-    "title": "Full-Stack Developer",
-    "subtitle": "Backend Java/Spring Boot & Android/Kotlin",
+    "title": "Backend Developer",
+    "subtitle": "Java / Spring Boot · Android Kotlin",
     "philosophy": "I design scalable REST APIs, robust native Android apps, and complete backend architectures. Internship completed — now open to new opportunities.",
     "cta_projects": "View my work",
     "cta_cv": "Download CV",
@@ -82,15 +82,15 @@
       "period": "Oct 2025 – May 2026",
       "location": "Barcelona, Spain",
       "tasks": [
-        "Multiplatform Digital Signage & IoT development (Linux, Windows, Android)",
-        "Machine Learning and AI integration for automation and real-time analytics",
-        "Scalable backend architecture design and legacy code refactoring"
+        "Developed Digital Signage & IoT platform deployed on 50+ devices across 3 OS (Linux, Windows, Android)",
+        "Integrated ML pipeline processing 1,000+ data points/min for real-time anomaly detection",
+        "Refactored 3 legacy backend services, reducing build time by ~35%"
       ],
       "highlights": [
-        "Worked on production-grade systems deployed across multiple OS environments",
-        "Applied ML models to real-time data streams in an industrial IoT context",
-        "Contributed to backend refactoring that improved system maintainability",
-        "Collaborated in an agile team on cross-platform software delivery"
+        "Reduced legacy code complexity by ~30% through systematic service refactoring",
+        "ML model deployed in production, cutting manual monitoring time by 40%",
+        "Shipped features across 3 OS environments in 2-week agile sprints",
+        "Collaborated in a cross-functional team of 6 engineers on live production systems"
       ]
     }
   },

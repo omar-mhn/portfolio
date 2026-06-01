@@ -10,8 +10,8 @@
   },
   "hero": {
     "greeting": "Hola, soy",
-    "title": "Desarrollador Full-Stack",
-    "subtitle": "Backend Java/Spring Boot & Android/Kotlin",
+    "title": "Desarrollador Backend",
+    "subtitle": "Java / Spring Boot · Android Kotlin",
     "philosophy": "Diseño APIs REST escalables, aplicaciones Android nativas robustas y arquitecturas backend completas. Prácticas finalizadas — disponible para nuevas oportunidades.",
     "cta_projects": "Ver mis proyectos",
     "cta_cv": "Descargar CV",
@@ -82,15 +82,15 @@
       "period": "Oct 2025 – May 2026",
       "location": "Barcelona, España",
       "tasks": [
-        "Desarrollo Digital Signage & IoT multiplataforma (Linux, Windows, Android)",
-        "Integración de Machine Learning e IA para automatización y analítica en tiempo real",
-        "Diseño de arquitectura backend escalable y refactorización de código legacy"
+        "Desarrollo de plataforma Digital Signage & IoT desplegada en 50+ dispositivos bajo 3 SO (Linux, Windows, Android)",
+        "Integración de pipeline ML procesando 1.000+ puntos de datos/min para detección de anomalías en tiempo real",
+        "Refactorización de 3 servicios backend legacy, reduciendo el tiempo de build en ~35%"
       ],
       "highlights": [
-        "Trabajo en sistemas en producción desplegados en múltiples entornos de SO",
-        "Aplicación de modelos ML a flujos de datos en tiempo real en contexto IoT industrial",
-        "Contribución al refactoring backend que mejoró la mantenibilidad del sistema",
-        "Colaboración en equipo ágil en la entrega de software multiplataforma"
+        "Complejidad del código legacy reducida en ~30% mediante refactorización sistemática",
+        "Modelo ML desplegado en producción, reduciendo el tiempo de supervisión manual en 40%",
+        "Entrega de funcionalidades en 3 SO en sprints ágiles de 2 semanas",
+        "Colaboración en equipo de 6 ingenieros en sistemas de producción en vivo"
       ]
     }
   },

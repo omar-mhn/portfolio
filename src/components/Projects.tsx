@@ -20,20 +20,6 @@ const PROJECTS = [
     featured: true,
     inProgress: false,
   },  
-  {
-    id: "smartfinance",
-    title: "Smart Finance",
-    description:
-      "Personal finance management app with AI-driven insights, budget tracking, and expense analytics. Real-time data sync and smart categorization.",
-    stack: ["Kotlin", "Android Studio", "Spring Boot", "PostgreSQL", "REST", "JWT"],
-    role: "Full-Stack Developer",
-    type: "type_mobile",
-    github: "#",
-    liveUrl: "",
-    images: ["images/in_prog.jpg"] as string[],
-    featured: false,
-    inProgress: true,
-  },
 ];
 
 function ProjectImageArea({ images, title, featured }: { images: string[]; title: string; featured: boolean }) {

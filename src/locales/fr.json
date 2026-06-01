@@ -10,8 +10,8 @@
   },
   "hero": {
     "greeting": "Bonjour, je suis",
-    "title": "Développeur Full-Stack",
-    "subtitle": "Backend Java/Spring Boot & Android/Kotlin",
+    "title": "Développeur Backend",
+    "subtitle": "Java / Spring Boot · Android Kotlin",
     "philosophy": "Je conçois des APIs REST scalables, des applications Android natives robustes et des architectures backend complètes. Stage terminé — disponible pour de nouvelles opportunités.",
     "cta_projects": "Voir mes projets",
     "cta_cv": "Télécharger CV",
@@ -82,15 +82,15 @@
       "period": "Oct 2025 – Mai 2026",
       "location": "Barcelone, Espagne",
       "tasks": [
-        "Développement Digital Signage & IoT multiplateforme (Linux, Windows, Android)",
-        "Intégration Machine Learning et IA pour l'automatisation et l'analytics temps réel",
-        "Conception d'architecture backend scalable et refactoring de code legacy"
+        "Développement d'une plateforme Digital Signage & IoT déployée sur 50+ dispositifs sous 3 OS (Linux, Windows, Android)",
+        "Intégration d'un pipeline ML traitant 1 000+ points de données/min pour la détection d'anomalies en temps réel",
+        "Refactoring de 3 services backend legacy, réduisant le temps de build de ~35%"
       ],
       "highlights": [
-        "Travail sur des systèmes en production déployés sur plusieurs environnements OS",
-        "Application de modèles ML sur des flux de données en temps réel en contexte IoT industriel",
-        "Contribution au refactoring backend améliorant la maintenabilité du système",
-        "Collaboration en équipe agile sur la livraison de logiciels multiplateformes"
+        "Complexité du code legacy réduite de ~30% grâce à un refactoring systématique",
+        "Modèle ML déployé en production, réduisant le temps de supervision manuelle de 40%",
+        "Livraison de fonctionnalités sur 3 OS en sprints agiles de 2 semaines",
+        "Collaboration dans une équipe de 6 ingénieurs sur des systèmes de production en direct"
       ]
     }
   },
