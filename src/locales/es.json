@@ -82,15 +82,15 @@
       "period": "Oct 2025 – May 2026",
       "location": "Barcelona, España",
       "tasks": [
-        "Desarrollo de plataforma Digital Signage & IoT desplegada en 50+ dispositivos bajo 3 SO (Linux, Windows, Android)",
-        "Integración de pipeline ML procesando 1.000+ puntos de datos/min para detección de anomalías en tiempo real",
-        "Refactorización de 3 servicios backend legacy, reduciendo el tiempo de build en ~35%"
+        "Desarrollo Digital Signage & IoT multiplataforma (Linux, Windows, Android)",
+        "Integración de Machine Learning e IA para automatización y analítica en tiempo real",
+        "Diseño de arquitectura backend escalable y refactorización de código legacy"
       ],
       "highlights": [
-        "Complejidad del código legacy reducida en ~30% mediante refactorización sistemática",
-        "Modelo ML desplegado en producción, reduciendo el tiempo de supervisión manual en 40%",
-        "Entrega de funcionalidades en 3 SO en sprints ágiles de 2 semanas",
-        "Colaboración en equipo de 6 ingenieros en sistemas de producción en vivo"
+        "Trabajo en sistemas en producción desplegados en múltiples entornos de SO",
+        "Aplicación de modelos ML a flujos de datos en tiempo real en contexto IoT industrial",
+        "Contribución al refactoring backend que mejoró la mantenibilidad del sistema",
+        "Colaboración en equipo ágil en la entrega de software multiplataforma"
       ]
     }
   },
