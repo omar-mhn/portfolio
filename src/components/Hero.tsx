@@ -218,11 +218,9 @@ export default function Hero() {
                 </div>
                 <div className="space-y-1.5">
                   <p><span className="text-blue-400">class</span> <span className="text-accent">OmarMehenni</span> {"{"}</p>
+                  <p className="pl-4"><span className="text-purple-400">String</span> firstName = <span className="text-green-400">&quot;Omar&quot;</span>;</p>
+                  <p className="pl-4"><span className="text-purple-400">String</span> lastName = <span className="text-green-400">&quot;Mehenni&quot;</span>;</p>
                   <p className="pl-4"><span className="text-purple-400">String</span> location = <span className="text-green-400">&quot;Barcelona&quot;</span>;</p>
-                  <p className="pl-4"><span className="text-purple-400">String[]</span> stack = {"{"}</p>
-                  <p className="pl-8 text-green-400">&quot;Java&quot;, &quot;Spring Boot&quot;,</p>
-                  <p className="pl-8 text-green-400">&quot;Kotlin&quot;, &quot;Android&quot;</p>
-                  <p className="pl-4">{"}"};</p>
                   <p className="pl-4"><span className="text-purple-400">boolean</span> available = <span className="text-orange-400">true</span>;</p>
                   <p className="mt-2 pl-4 text-muted">// Open to opportunities</p>
                   <p>{"}"}</p>
