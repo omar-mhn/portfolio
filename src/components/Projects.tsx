@@ -302,8 +302,15 @@ export default function Projects() {
                   <span className="text-[10px] font-mono text-muted uppercase tracking-widest">
                     {t.projects[project.type as keyof typeof t.projects] ?? project.type}
                   </span>
-                  {!project.inProgress && (
-                    <ExternalLink size={12} className="text-muted group-hover:text-accent transition-colors" />
+                  {!project.inProgress && project.github && project.github !== "#" && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="GitHub"
+                    >
+                      <ExternalLink size={12} className="text-muted group-hover:text-accent transition-colors" />
+                    </a>
                   )}
                 </div>
               </div>
