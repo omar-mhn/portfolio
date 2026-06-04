@@ -67,7 +67,7 @@ const PROJECTS = [
 function ProjectImageArea({ images, title, featured }: { images: string[]; title: string; featured: boolean }) {
   if (images.length > 0) {
     return (
-      <div className={`relative overflow-hidden bg-surface border-b border-border ${featured ? "h-52" : "h-36"}`}>
+      <div className={`relative overflow-hidden bg-white border-b border-border ${featured ? "h-52" : "h-36"}`}>
         <img
           src={images[0]}
           alt={title}
