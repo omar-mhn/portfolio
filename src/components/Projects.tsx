@@ -21,14 +21,42 @@ const PROJECTS = [
     inProgress: false,
   },
   {
+    id: "todo-list",
+    title: "Todo List API",
+    description:
+      "RESTful API for task management with full CRUD operations. Supports keyword search, dynamic filtering, and date-range queries. Clean layered architecture with Controller, Service, Repository, and Model separation.",
+    stack: ["Java", "Spring Boot", "Spring Web MVC", "Spring Data JPA", "MySQL", "Maven", "Docker Compose"],
+    role: "Backend Developer",
+    type: "type_backend",
+    github: "https://github.com/omar-mhn/todoList.git",
+    liveUrl: "",
+    images: [] as string[],
+    featured: false,
+    inProgress: false,
+  },
+  {
     id: "hospital-system",
     title: "Hospital Management System",
     description:
-      "Practice backend modeling a realistic healthcare domain. Covers patients, doctors, appointments, prescriptions and insurance with clean layered architecture (Controller / Service / Repository / DTO + Mapper) and full JPA relationship mapping (1-1, 1-N, N-N).",
+      "Practice backend modeling a realistic healthcare domain. Covers patients, doctors, appointments, prescriptions and insurance with clean layered architecture and full JPA relationship mapping.",
     stack: ["Java", "Spring Boot", "Spring Web MVC", "Spring Data JPA", "MySQL", "Maven", "Docker Compose"],
     role: "Backend Developer",
     type: "type_backend",
     github: "https://github.com/omar-mhn/Hospital-System",
+    liveUrl: "",
+    images: [] as string[],
+    featured: false,
+    inProgress: false,
+  },
+  {
+    id: "techstore",
+    title: "TechStore",
+    description:
+      "E-commerce platform for tech products with product catalog, shopping cart, and order management. Built with a clean layered architecture covering product listings, user authentication, and order processing.",
+    stack: ["Java", "Spring Boot", "Spring Web MVC", "Spring Data JPA", "MySQL", "Maven"],
+    role: "Backend Developer",
+    type: "type_backend",
+    github: "https://github.com/omar-mhn/techstore",
     liveUrl: "",
     images: [] as string[],
     featured: false,
@@ -260,7 +288,7 @@ export default function Projects() {
                 </p>
 
                 <div className="flex flex-wrap gap-1 mb-4">
-                  {project.stack.slice(0, 4).map((tech) => (
+                  {project.stack.map((tech) => (
                     <span
                       key={tech}
                       className="px-1.5 py-0.5 text-[10px] font-mono border border-border text-muted rounded"
@@ -268,11 +296,6 @@ export default function Projects() {
                       {tech}
                     </span>
                   ))}
-                  {project.stack.length > 4 && (
-                    <span className="px-1.5 py-0.5 text-[10px] font-mono text-muted">
-                      +{project.stack.length - 4}
-                    </span>
-                  )}
                 </div>
 
                 <div className="pt-3 border-t border-border flex items-center justify-between">
