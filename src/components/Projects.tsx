@@ -19,7 +19,21 @@ const PROJECTS = [
     images: ["images/Logo.svg"] as string[],
     featured: true,
     inProgress: false,
-  },  
+  },
+  {
+    id: "hospital-system",
+    title: "Hospital Management System",
+    description:
+      "Practice backend modeling a realistic healthcare domain. Covers patients, doctors, appointments, prescriptions and insurance with clean layered architecture (Controller / Service / Repository / DTO + Mapper) and full JPA relationship mapping (1-1, 1-N, N-N).",
+    stack: ["Java", "Spring Boot", "Spring Web MVC", "Spring Data JPA", "MySQL", "Maven", "Docker Compose"],
+    role: "Backend Developer",
+    type: "type_backend",
+    github: "https://github.com/omar-mhn/Hospital-System",
+    liveUrl: "",
+    images: [] as string[],
+    featured: false,
+    inProgress: false,
+  },
 ];
 
 function ProjectImageArea({ images, title, featured }: { images: string[]; title: string; featured: boolean }) {
