@@ -20,7 +20,7 @@ export default function About() {
   const languages = t.about.languages as Array<{ name: string; level: string }>;
 
   return (
-    <section id="about" className="py-24 lg:py-32" ref={ref}>
+    <section id="about" className="py-14 lg:py-20" ref={ref}>
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
         {/* Label + headline */}

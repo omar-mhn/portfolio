@@ -17,7 +17,7 @@ export default function Certifications() {
   }>;
 
   return (
-    <section id="certifications" className="py-24 lg:py-36" ref={ref}>
+    <section id="certifications" className="py-14 lg:py-20" ref={ref}>
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Header */}
         <motion.div

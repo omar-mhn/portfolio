@@ -11,8 +11,8 @@
   "hero": {
     "greeting": "Hello, I'm",
     "title": "Backend Developer",
-    "subtitle": "Java / Spring Boot · Android Kotlin",
-    "philosophy": "I design scalable REST APIs, robust native Android apps, and complete backend architectures. Internship completed — now open to new opportunities.",
+    "subtitle": "Java / Spring Boot · Backend Specialist",
+    "philosophy": "I design scalable REST APIs and robust backend architectures with Java & Spring Boot. Internship completed — now open to backend developer opportunities.",
     "cta_projects": "View my work",
     "cta_cv": "Download CV",
     "location": "Barcelona, Cataluña"
@@ -20,9 +20,11 @@
   "about": {
     "label": "About",
     "title": "Backend-first developer,\nopen to opportunities",
-    "bio": "Specialized in Java/Spring Boot backend and Android Kotlin development. I build the server-side architecture that powers mobile and web products — from API design to deployment. Rigorous engineering background, currently looking for a full-time IT position.",
+    "bio": "Java/Spring Boot backend specialist with hands-on experience in REST API design, Spring Security, JPA/Hibernate, and cloud deployment. Grado in Multiplatform Application Development (DAM) — currently available for a full-time backend developer position.",
     "languages_label": "Languages spoken",
     "languages": [
+      { "name": "Arabic", "level": "Native" },
+      { "name": "Tamazight", "level": "Native" },
       { "name": "French", "level": "C1" },
       { "name": "Spanish", "level": "B2" },
       { "name": "English", "level": "B1/B2" },
@@ -31,11 +33,11 @@
     "values": [
       {
         "title": "Scalable Backend",
-        "desc": "REST APIs built with Spring Boot, JPA, JWT and solid MVC architecture."
+        "desc": "REST APIs built with Java, Spring Boot, JPA/Hibernate, Spring Security and JWT — production-ready MVC architecture."
       },
       {
-        "title": "Android Native",
-        "desc": "Kotlin apps with Retrofit, ViewModel and Fragments — from UI to API integration."
+        "title": "Cloud Deployment",
+        "desc": "Spring Boot applications deployed on Oracle Cloud Infrastructure (OCI) — Dockerized containers, production REST endpoints."
       },
       {
         "title": "Real-time Systems",
@@ -43,7 +45,7 @@
       },
       {
         "title": "Multilingual",
-        "desc": "Comfortable working in international teams — French, Spanish, English, Catalan."
+        "desc": "Fluent in 6 languages: Arabic (Native), Tamazight (Native), French (C1), Spanish (B2), English (B1/B2), Catalan (A2)."
       }
     ]
   },
@@ -54,7 +56,7 @@
       "backend": "Backend",
       "mobile": "Mobile",
       "database": "Databases",
-      "devops": "DevOps & Tools",
+      "devops": "DevOps & Cloud",
       "other": "Other"
     }
   },
@@ -74,7 +76,7 @@
     "missions_label": "Missions",
     "highlights_label": "Key contributions",
     "open_to_work": "Open to work.",
-    "open_to_work_desc": "Available for full-time positions in backend, Android or full-stack development.",
+    "open_to_work_desc": "Available for full-time backend developer positions (Java / Spring Boot).",
     "contact_me": "Get in touch",
     "admira": {
       "role": "Software Developer Intern",

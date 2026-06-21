@@ -6,15 +6,15 @@ import { useI18n } from "@/lib/i18n";
 
 const SKILL_DATA = {
   backend: [
-    "Java", "Spring Boot", "JPA / Hibernate", "Spring Security",
-    "JWT Auth", "REST APIs", "Architecture MVC","Maven / Gradle"
+    "Java", "Spring Boot", "Spring Framework", "JPA / Hibernate", "Spring Security",
+    "JWT Auth", "REST APIs", "Microservices", "Architecture MVC", "Maven / Gradle"
   ],
   mobile: [
-    "Kotlin", "Android Studio","Jetpack Compose", "MVVM Architecture",
-     "Retrofit","ViewModel / LiveData","Coroutines"
+    "Kotlin", "Android Studio", "Jetpack Compose", "MVVM Architecture",
+    "Retrofit", "ViewModel / LiveData", "Coroutines"
   ],
-  database: ["MySQL", "PostgreSQL", "SQL","Firebase Firestore", "MongoDB"],
-  devops: ["Docker", "Git / GitHub"],
+  database: ["MySQL", "PostgreSQL", "SQL", "Firebase Firestore", "MongoDB"],
+  devops: ["Docker", "Git / GitHub", "Oracle Cloud (OCI)", "Linux", "CI/CD"],
   other: ["Python", "Machine Learning", "IoT"],
 };
 
@@ -30,7 +30,7 @@ export default function Skills() {
   const catLabels = t.skills.categories as Record<Category, string>;
 
   return (
-    <section id="skills" className="py-24 lg:py-36 bg-surface/30" ref={ref}>
+    <section id="skills" className="py-14 lg:py-20 bg-surface/30" ref={ref}>
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Header */}
         <div className="grid lg:grid-cols-12 gap-12 mb-16">

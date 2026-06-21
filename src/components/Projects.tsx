@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
-import { ExternalLink, Github, ArrowUpRight, Construction } from "lucide-react";
+import { ExternalLink, Github, ArrowUpRight, Construction, Cloud } from "lucide-react";
 
 const PROJECTS = [
   {
@@ -19,6 +19,7 @@ const PROJECTS = [
     images: ["images/Logo.svg"] as string[],
     featured: true,
     inProgress: false,
+    deployment: "Oracle Cloud (OCI)",
   },
   {
     id: "todo-list",
@@ -33,6 +34,7 @@ const PROJECTS = [
     images: ["images/todo_list.png"] as string[],
     featured: false,
     inProgress: false,
+    deployment: "Oracle Cloud (OCI)",
   },
   {
     id: "hospital-system",
@@ -47,6 +49,7 @@ const PROJECTS = [
     images: ["images/hospital.png"] as string[],
     featured: false,
     inProgress: false,
+    deployment: "Oracle Cloud (OCI)",
   },
   {
     id: "techstore",
@@ -61,6 +64,7 @@ const PROJECTS = [
     images: ["images/techstore_image.png"] as string[],
     featured: false,
     inProgress: false,
+    deployment: "Oracle Cloud (OCI)",
   },
 ];
 
@@ -119,7 +123,7 @@ export default function Projects() {
   const others = PROJECTS.slice(1);
 
   return (
-    <section id="projects" className="py-24 lg:py-36" ref={ref}>
+    <section id="projects" className="py-14 lg:py-20" ref={ref}>
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Header */}
         <motion.div
@@ -208,6 +212,12 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
+                {featured.deployment && (
+                  <div className="flex items-center gap-1.5 mt-3">
+                    <Cloud size={11} className="text-accent/70" />
+                    <span className="text-[10px] font-mono text-accent/70">{featured.deployment}</span>
+                  </div>
+                )}
               </div>
 
               <div className="mt-6 pt-6 border-t border-border flex items-center justify-between">
@@ -287,7 +297,7 @@ export default function Projects() {
                   {project.description}
                 </p>
 
-                <div className="flex flex-wrap gap-1 mb-4">
+                <div className="flex flex-wrap gap-1 mb-3">
                   {project.stack.map((tech) => (
                     <span
                       key={tech}
@@ -297,6 +307,12 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
+                {project.deployment && (
+                  <div className="flex items-center gap-1.5 mb-4">
+                    <Cloud size={10} className="text-accent/70" />
+                    <span className="text-[10px] font-mono text-accent/70">{project.deployment}</span>
+                  </div>
+                )}
 
                 <div className="pt-3 border-t border-border flex items-center justify-between">
                   <span className="text-[10px] font-mono text-muted uppercase tracking-widest">

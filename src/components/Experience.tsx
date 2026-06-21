@@ -14,7 +14,7 @@ export default function Experience() {
   const highlights = t.experience.admira.highlights as string[];
 
   return (
-    <section id="experience" className="py-24 lg:py-32 bg-surface/30" ref={ref}>
+    <section id="experience" className="py-14 lg:py-20 bg-surface/30" ref={ref}>
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
         {/* Header */}

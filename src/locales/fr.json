@@ -11,8 +11,8 @@
   "hero": {
     "greeting": "Bonjour, je suis",
     "title": "Développeur Backend",
-    "subtitle": "Java / Spring Boot · Android Kotlin",
-    "philosophy": "Je conçois des APIs REST scalables, des applications Android natives robustes et des architectures backend complètes. Stage terminé — disponible pour de nouvelles opportunités.",
+    "subtitle": "Java / Spring Boot · Spécialiste Backend",
+    "philosophy": "Je conçois des APIs REST scalables et des architectures backend robustes avec Java & Spring Boot. Stage terminé — disponible pour des opportunités backend.",
     "cta_projects": "Voir mes projets",
     "cta_cv": "Télécharger CV",
     "location": "Barcelone, Catalogne"
@@ -20,9 +20,11 @@
   "about": {
     "label": "À propos",
     "title": "Développeur backend-first,\nà la recherche d'opportunités",
-    "bio": "Spécialisé en backend Java/Spring Boot et développement Android Kotlin. Je construis l'architecture serveur qui alimente produits mobiles et web — de la conception d'API jusqu'au déploiement. Solide bagage en ingénierie, actuellement à la recherche d'un poste IT à temps plein.",
+    "bio": "Spécialiste backend Java/Spring Boot avec une expérience concrète en conception d'APIs REST, Spring Security, JPA/Hibernate et déploiement cloud. Grado en Développement d'Applications Multiplateformes (DAM) — disponible pour un poste développeur backend à temps plein.",
     "languages_label": "Langues parlées",
     "languages": [
+      { "name": "Arabe", "level": "Natif" },
+      { "name": "Tamazight", "level": "Natif" },
       { "name": "Français", "level": "C1" },
       { "name": "Espagnol", "level": "B2" },
       { "name": "Anglais", "level": "B1/B2" },
@@ -31,11 +33,11 @@
     "values": [
       {
         "title": "Backend Scalable",
-        "desc": "APIs REST avec Spring Boot, JPA, JWT et une architecture MVC solide."
+        "desc": "APIs REST avec Java, Spring Boot, JPA/Hibernate, Spring Security et JWT — architecture MVC prête pour la production."
       },
       {
-        "title": "Android Natif",
-        "desc": "Apps Kotlin avec Retrofit, ViewModel et Fragments — de l'UI à l'API."
+        "title": "Déploiement Cloud",
+        "desc": "Applications Spring Boot déployées sur Oracle Cloud Infrastructure (OCI) — conteneurs Docker, endpoints REST en production."
       },
       {
         "title": "Systèmes Temps Réel",
@@ -43,7 +45,7 @@
       },
       {
         "title": "Multilingue",
-        "desc": "À l'aise dans des équipes internationales — Français, Espagnol, Anglais, Catalan."
+        "desc": "Maîtrise de 6 langues : Arabe (Natif), Tamazight (Natif), Français (C1), Espagnol (B2), Anglais (B1/B2), Catalan (A2)."
       }
     ]
   },
@@ -54,7 +56,7 @@
       "backend": "Backend",
       "mobile": "Mobile",
       "database": "Bases de données",
-      "devops": "DevOps & Outils",
+      "devops": "DevOps & Cloud",
       "other": "Autres"
     }
   },
@@ -74,7 +76,7 @@
     "missions_label": "Missions",
     "highlights_label": "Contributions clés",
     "open_to_work": "Disponible.",
-    "open_to_work_desc": "Ouvert à des postes en backend, Android ou développement full-stack.",
+    "open_to_work_desc": "Disponible pour des postes à temps plein en développement backend (Java / Spring Boot).",
     "contact_me": "Me contacter",
     "admira": {
       "role": "Développeur Logiciel (Stage)",
