@@ -69,6 +69,70 @@ body {
   z-index: 0;
 }
 
+/* Legal pages prose styles */
+.prose-legal {
+  color: #e8e8e8;
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 1.75;
+  max-width: 68ch;
+}
+.prose-legal h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.prose-legal h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #1e1e1e;
+}
+.prose-legal p {
+  color: rgba(232,232,232,0.7);
+  margin-bottom: 0.9rem;
+  font-size: 0.9375rem;
+}
+.prose-legal p.lead {
+  color: rgba(232,232,232,0.85);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.prose-legal ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+.prose-legal ul li {
+  color: rgba(232,232,232,0.7);
+  font-size: 0.9375rem;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #1a1a1a;
+}
+.prose-legal ul li:last-child { border-bottom: none; }
+.prose-legal strong { color: #fff; font-weight: 500; }
+.prose-legal a { color: #d4a853; text-decoration: underline; text-underline-offset: 3px; }
+.prose-legal a:hover { color: #e8c070; }
+.prose-legal p.updated {
+  margin-top: 3rem;
+  font-size: 0.75rem;
+  font-family: 'IBM Plex Mono', monospace;
+  color: rgba(232,232,232,0.3);
+}
+.prose-legal .placeholder {
+  background: rgba(212,168,83,0.15);
+  color: #d4a853;
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.85em;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

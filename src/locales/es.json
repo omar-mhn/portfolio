@@ -1,6 +1,7 @@
 {
   "nav": {
     "about": "Sobre mí",
+    "services": "Servicios",
     "skills": "Habilidades",
     "projects": "Proyectos",
     "experience": "Experiencia",
@@ -12,15 +13,18 @@
     "greeting": "Hola, soy",
     "title": "Desarrollador Backend",
     "subtitle": "Java / Spring Boot · Especialista Backend",
-    "philosophy": "Diseño APIs REST escalables y arquitecturas backend robustas con Java & Spring Boot. Prácticas finalizadas — disponible para oportunidades como desarrollador backend.",
+    "philosophy": "Desarrollo aplicaciones web a medida, backends robustos y apps Android nativas para empresas y autónomos. Especialista Java/Spring Boot & Kotlin, disponible para proyectos freelance en Barcelona.",
     "cta_projects": "Ver mis proyectos",
     "cta_cv": "Descargar CV",
-    "location": "Barcelona, Cataluña"
+    "location": "Barcelona, Cataluña",
+    "open_to_work": "Open to work",
+    "freelance_badge": "Disponible para proyectos freelance",
+    "cta_services": "Ver servicios"
   },
   "about": {
     "label": "Sobre mí",
-    "title": "Desarrollador backend-first,\nabierto a oportunidades",
-    "bio": "Especialista backend Java/Spring Boot con experiencia práctica en diseño de APIs REST, Spring Security, JPA/Hibernate y despliegue cloud. Grado en Desarrollo de Aplicaciones Multiplataforma (DAM) — disponible para un puesto de desarrollador backend a tiempo completo.",
+    "title": "Desarrollador freelance en Barcelona,\nespecialista backend y mobile",
+    "bio": "Desarrollo aplicaciones web, APIs REST y apps Android nativas para empresas y autónomos. Especialista en Java/Spring Boot, Kotlin e integración de IA. Grado en Desarrollo de Aplicaciones Multiplataforma (DAM) — disponible para proyectos freelance y colaboraciones técnicas.",
     "languages_label": "Idiomas hablados",
     "languages": [
       { "name": "Árabe", "level": "Nativo" },
@@ -46,6 +50,64 @@
       {
         "title": "Multilingüe",
         "desc": "Dominio de 6 idiomas: Árabe (Nativo), Tamazight (Nativo), Francés (C1), Español (B2), Inglés (B1/B2), Catalán (A2)."
+      }
+    ]
+  },
+  "services": {
+    "label": "Servicios",
+    "title": "¿En qué puedo\nayudarte?",
+    "cta": "Solicitar presupuesto",
+    "items": [
+      {
+        "title": "Aplicaciones web a medida",
+        "description": "Diseño y desarrollo de aplicaciones web adaptadas a las necesidades de tu negocio: paneles de gestión, herramientas internas, plataformas de clientes y automatización de procesos, desde el servidor hasta la interfaz.",
+        "tags": ["Java", "Spring Boot", "PostgreSQL", "MySQL", "Docker"]
+      },
+      {
+        "title": "Aplicaciones móviles Android",
+        "description": "Desarrollo de aplicaciones nativas para Android, conectadas a tu sistema o a tus servicios, con un código mantenible y listas para su publicación.",
+        "tags": ["Kotlin", "Android", "APIs REST"]
+      },
+      {
+        "title": "Backend, APIs y bases de datos",
+        "description": "Diseño de la arquitectura del servidor, APIs REST seguras y bases de datos fiables y optimizadas, con autenticación y control de accesos para proteger tus datos y los de tus usuarios.",
+        "tags": ["Java", "Spring Boot", "PostgreSQL", "MySQL", "JWT"]
+      },
+      {
+        "title": "Integración de Inteligencia Artificial",
+        "description": "Incorporación de funcionalidades de IA en tus aplicaciones y procesos mediante APIs: asistentes, automatización de tareas y análisis de información.",
+        "tags": ["APIs de IA", "Java", "Spring Boot"]
+      },
+      {
+        "title": "Despliegue, mantenimiento y soporte",
+        "description": "Puesta en producción en contenedores, mantenimiento evolutivo y correctivo, y soporte técnico continuado para que tu aplicación siga funcionando.",
+        "tags": ["Docker", "Despliegue en la nube", "Soporte técnico"]
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Tarifas",
+    "title": "Tarifas y\npresupuestos",
+    "note": "Todos los precios son orientativos e indicados sin IVA (21 %). El importe exacto se detallará en el presupuesto escrito.",
+    "cta": "Solicitar presupuesto gratuito",
+    "items": [
+      {
+        "type": "Desarrollo",
+        "scope": "Aplicaciones web, móvil, backend e integración de IA",
+        "price": "desde 35 €/hora",
+        "detail": "IVA no incluido (21 %)"
+      },
+      {
+        "type": "Proyectos cerrados",
+        "scope": "Presupuesto personalizado, gratuito y sin compromiso",
+        "price": "Consultar",
+        "detail": "Respuesta en menos de 48 h"
+      },
+      {
+        "type": "Mantenimiento y soporte",
+        "scope": "Despliegue, mantenimiento evolutivo y soporte técnico continuado",
+        "price": "Facturación mensual",
+        "detail": "Tarifa según alcance acordado"
       }
     ]
   },
@@ -75,8 +137,8 @@
     "present": "Prácticas completadas",
     "missions_label": "Misiones",
     "highlights_label": "Contribuciones clave",
-    "open_to_work": "Disponible.",
-    "open_to_work_desc": "Disponible para puestos a tiempo completo como desarrollador backend (Java / Spring Boot).",
+    "open_to_work": "Disponible para proyectos.",
+    "open_to_work_desc": "Disponible para proyectos freelance de desarrollo backend, mobile y web.",
     "contact_me": "Contactarme",
     "admira": {
       "role": "Desarrollador de Software (Prácticas)",
@@ -122,7 +184,9 @@
   "contact": {
     "label": "Contacto",
     "title": "Trabajemos\njuntos",
-    "subtitle": "Abierto a puestos a tiempo completo, misiones freelance y proyectos interesantes. Respondo rápidamente.",
+    "subtitle": "Disponible para proyectos freelance de desarrollo backend, mobile, web e integración de IA. Respondo en menos de 48 h.",
+    "privacy_prefix": "He leído y acepto la",
+    "privacy_link": "política de privacidad",
     "form": {
       "name": "Nombre",
       "email": "Email",
@@ -141,6 +205,9 @@
   },
   "footer": {
     "copy": "Omar Mehenni. Construido con Next.js & Tailwind CSS.",
-    "rights": "Todos los derechos reservados."
+    "rights": "Todos los derechos reservados.",
+    "legal": "Aviso legal",
+    "privacy": "Privacidad",
+    "terms": "Condiciones"
   }
 }

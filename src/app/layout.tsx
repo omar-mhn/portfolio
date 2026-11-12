@@ -1,28 +1,42 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+const BASE_URL = "https://omar-mhn.github.io/portfolio";
+
 export const metadata: Metadata = {
-  title: "Omar Mehenni — Full-Stack Developer",
+  title: {
+    default: "Omar Mehenni — Desarrollador Freelance | Barcelona",
+    template: "%s — Omar Mehenni",
+  },
   description:
-    "Full-Stack Developer specialized in backend Java/Spring Boot and Android Kotlin. Building scalable REST APIs, robust mobile apps, and complete web solutions.",
+    "Desarrollador freelance en Barcelona especializado en backend Java/Spring Boot, apps Android Kotlin, bases de datos, integración de IA y Docker. Disponible para proyectos.",
   keywords: [
     "Omar Mehenni",
-    "Full-Stack Developer",
-    "Java",
+    "desarrollador freelance",
+    "backend Java",
     "Spring Boot",
-    "Android",
-    "Kotlin",
-    "Backend Developer",
+    "Android Kotlin",
+    "desarrollo web",
     "Barcelona",
+    "autónomo",
   ],
   authors: [{ name: "Omar Mehenni" }],
+  metadataBase: new URL(BASE_URL),
+  alternates: {
+    canonical: BASE_URL + "/",
+    languages: {
+      "es-ES": BASE_URL + "/",
+      "en": BASE_URL + "/",
+    },
+  },
   openGraph: {
-    title: "Omar Mehenni — Full-Stack Developer",
+    title: "Omar Mehenni — Desarrollador Freelance | Barcelona",
     description:
-      "Backend Java/Spring Boot & Android/Kotlin developer based in Barcelona.",
-    url: "https://omar-mehenni.vercel.app",
-    siteName: "Omar Mehenni Portfolio",
-    locale: "en_US",
+      "Backend Java/Spring Boot & Android/Kotlin developer based in Barcelona. Available for freelance projects.",
+    url: BASE_URL + "/",
+    siteName: "Omar Mehenni",
+    locale: "es_ES",
+    alternateLocale: "en_US",
     type: "website",
   },
   robots: {
@@ -37,7 +51,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="es" suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link

@@ -1,6 +1,7 @@
 {
   "nav": {
     "about": "À propos",
+    "services": "Services",
     "skills": "Compétences",
     "projects": "Projets",
     "experience": "Expérience",
@@ -15,7 +16,10 @@
     "philosophy": "Je conçois des APIs REST scalables et des architectures backend robustes avec Java & Spring Boot. Stage terminé — disponible pour des opportunités backend.",
     "cta_projects": "Voir mes projets",
     "cta_cv": "Télécharger CV",
-    "location": "Barcelone, Catalogne"
+    "location": "Barcelone, Catalogne",
+    "open_to_work": "Open to work",
+    "freelance_badge": "Disponible pour des projets freelance",
+    "cta_services": "Voir les services"
   },
   "about": {
     "label": "À propos",
@@ -46,6 +50,64 @@
       {
         "title": "Multilingue",
         "desc": "Maîtrise de 6 langues : Arabe (Natif), Tamazight (Natif), Français (C1), Espagnol (B2), Anglais (B1/B2), Catalan (A2)."
+      }
+    ]
+  },
+  "services": {
+    "label": "Services",
+    "title": "Comment puis-je\nvous aider ?",
+    "cta": "Demander un devis",
+    "items": [
+      {
+        "title": "Applications web sur mesure",
+        "description": "Conception et développement d'applications web adaptées à votre activité : tableaux de bord, outils internes, plateformes clients et automatisation de processus, du serveur à l'interface.",
+        "tags": ["Java", "Spring Boot", "PostgreSQL", "MySQL", "Docker"]
+      },
+      {
+        "title": "Applications mobiles Android",
+        "description": "Développement d'applications natives Android, connectées à vos systèmes ou services, avec un code maintenable et prêtes à être publiées.",
+        "tags": ["Kotlin", "Android", "APIs REST"]
+      },
+      {
+        "title": "Backend, APIs et bases de données",
+        "description": "Conception de l'architecture serveur, APIs REST sécurisées et bases de données fiables et optimisées, avec authentification et contrôle d'accès pour protéger vos données.",
+        "tags": ["Java", "Spring Boot", "PostgreSQL", "MySQL", "JWT"]
+      },
+      {
+        "title": "Intégration d'Intelligence Artificielle",
+        "description": "Intégration de fonctionnalités IA dans vos applications et processus via des APIs : assistants, automatisation de tâches et analyse d'informations.",
+        "tags": ["APIs IA", "Java", "Spring Boot"]
+      },
+      {
+        "title": "Déploiement, maintenance et support",
+        "description": "Mise en production dans des conteneurs, maintenance évolutive et corrective, et support technique continu pour que votre application fonctionne en permanence.",
+        "tags": ["Docker", "Déploiement cloud", "Support technique"]
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Tarifs",
+    "title": "Tarifs et\ndevis",
+    "note": "Tous les prix sont indicatifs et hors TVA (21 %). Le montant exact sera détaillé dans le devis écrit.",
+    "cta": "Demander un devis gratuit",
+    "items": [
+      {
+        "type": "Développement",
+        "scope": "Web, mobile, backend & intégration IA",
+        "price": "à partir de 35 €/h",
+        "detail": "TVA non incluse (21 %)"
+      },
+      {
+        "type": "Projets à forfait",
+        "scope": "Devis personnalisé, gratuit et sans engagement",
+        "price": "Sur devis",
+        "detail": "Réponse sous 48 h"
+      },
+      {
+        "type": "Maintenance et support",
+        "scope": "Déploiement, maintenance évolutive et support technique",
+        "price": "Facturation mensuelle",
+        "detail": "Tarif selon périmètre convenu"
       }
     ]
   },
@@ -123,6 +185,8 @@
     "label": "Contact",
     "title": "Travaillons\nensemble",
     "subtitle": "Ouvert aux postes à temps plein, missions freelance et projets intéressants. Je réponds rapidement.",
+    "privacy_prefix": "J'ai lu et j'accepte la",
+    "privacy_link": "politique de confidentialité",
     "form": {
       "name": "Nom",
       "email": "Email",
@@ -141,6 +205,9 @@
   },
   "footer": {
     "copy": "Omar Mehenni. Construit avec Next.js & Tailwind CSS.",
-    "rights": "Tous droits réservés."
+    "rights": "Tous droits réservés.",
+    "legal": "Mentions légales",
+    "privacy": "Confidentialité",
+    "terms": "Conditions"
   }
 }

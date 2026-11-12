@@ -5,7 +5,7 @@ import { useI18n } from "@/lib/i18n";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { Download, Menu, X } from "lucide-react";
 
-const sections = ["about", "skills", "projects", "experience", "certifications", "contact"] as const;
+const sections = ["about", "services", "skills", "projects", "experience", "certifications", "contact"] as const;
 
 export default function Navbar() {
   const { t } = useI18n();

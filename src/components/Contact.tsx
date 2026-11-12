@@ -5,6 +5,8 @@ import { motion, useInView } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import { Mail, Linkedin, Github } from "lucide-react";
 
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export default function Contact() {
   const { t } = useI18n();
   const ref = useRef(null);
@@ -32,6 +34,18 @@ export default function Contact() {
               {t.contact.title}
             </h2>
             <p className="text-white/60 leading-relaxed mb-10">{t.contact.subtitle}</p>
+
+            {/* Privacy note */}
+            <p className="text-xs font-mono text-muted mb-6">
+              {t.contact.privacy_prefix}{" "}
+              <a
+                href={`${BASE}/privacidad/`}
+                className="text-accent hover:underline"
+              >
+                {t.contact.privacy_link}
+              </a>
+              {" "}al ponerte en contacto.
+            </p>
 
             {/* Direct links */}
             <div className="space-y-3">

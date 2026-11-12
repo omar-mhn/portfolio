@@ -1,6 +1,7 @@
 {
   "nav": {
     "about": "About",
+    "services": "Services",
     "skills": "Skills",
     "projects": "Projects",
     "experience": "Experience",
@@ -12,15 +13,18 @@
     "greeting": "Hello, I'm",
     "title": "Backend Developer",
     "subtitle": "Java / Spring Boot · Backend Specialist",
-    "philosophy": "I design scalable REST APIs and robust backend architectures with Java & Spring Boot. Internship completed — now open to backend developer opportunities.",
+    "philosophy": "I build custom web applications, robust backends and native Android apps for businesses and entrepreneurs. Java/Spring Boot & Kotlin specialist, available for freelance projects in Barcelona.",
     "cta_projects": "View my work",
     "cta_cv": "Download CV",
-    "location": "Barcelona, Cataluña"
+    "location": "Barcelona, Cataluña",
+    "open_to_work": "Open to work",
+    "freelance_badge": "Available for freelance projects",
+    "cta_services": "View services"
   },
   "about": {
     "label": "About",
-    "title": "Backend-first developer,\nopen to opportunities",
-    "bio": "Java/Spring Boot backend specialist with hands-on experience in REST API design, Spring Security, JPA/Hibernate, and cloud deployment. Grado in Multiplatform Application Development (DAM) — currently available for a full-time backend developer position.",
+    "title": "Freelance developer in Barcelona,\nbackend & mobile specialist",
+    "bio": "I build web applications, REST APIs and native Android apps for businesses and entrepreneurs. Specialist in Java/Spring Boot, Kotlin and AI integration. Grado in Multiplatform Application Development (DAM) — available for freelance projects and technical collaborations.",
     "languages_label": "Languages spoken",
     "languages": [
       { "name": "Arabic", "level": "Native" },
@@ -46,6 +50,64 @@
       {
         "title": "Multilingual",
         "desc": "Fluent in 6 languages: Arabic (Native), Tamazight (Native), French (C1), Spanish (B2), English (B1/B2), Catalan (A2)."
+      }
+    ]
+  },
+  "services": {
+    "label": "Services",
+    "title": "How can I\nhelp you?",
+    "cta": "Request a quote",
+    "items": [
+      {
+        "title": "Custom web applications",
+        "description": "Design and development of web applications tailored to your business: management dashboards, internal tools, client platforms, and process automation — from server to interface.",
+        "tags": ["Java", "Spring Boot", "PostgreSQL", "MySQL", "Docker"]
+      },
+      {
+        "title": "Android mobile applications",
+        "description": "Native Android application development, connected to your system or services, with maintainable code and ready for publication.",
+        "tags": ["Kotlin", "Android", "REST APIs"]
+      },
+      {
+        "title": "Backend, APIs & databases",
+        "description": "Server architecture design, secure REST APIs, and reliable, optimised databases with authentication and access control to protect your data and your users'.",
+        "tags": ["Java", "Spring Boot", "PostgreSQL", "MySQL", "JWT"]
+      },
+      {
+        "title": "Artificial Intelligence integration",
+        "description": "Embedding AI capabilities into your applications and workflows via APIs: assistants, task automation, and information analysis.",
+        "tags": ["AI APIs", "Java", "Spring Boot"]
+      },
+      {
+        "title": "Deployment, maintenance & support",
+        "description": "Containerised production deployment, ongoing corrective and evolutionary maintenance, and continuous technical support to keep your application running.",
+        "tags": ["Docker", "Cloud deployment", "Technical support"]
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Pricing",
+    "title": "Rates &\nquotes",
+    "note": "All prices are indicative and exclude VAT (21 %). The exact amount will be detailed in the written quote.",
+    "cta": "Request a free quote",
+    "items": [
+      {
+        "type": "Development",
+        "scope": "Web, mobile, backend & AI integration",
+        "price": "from €35/hour",
+        "detail": "VAT not included (21 %)"
+      },
+      {
+        "type": "Fixed-price projects",
+        "scope": "Custom quote, free and without commitment",
+        "price": "Get a quote",
+        "detail": "Response within 48 h"
+      },
+      {
+        "type": "Maintenance & support",
+        "scope": "Deployment, ongoing maintenance and technical support",
+        "price": "Monthly billing",
+        "detail": "Rate according to agreed scope"
       }
     ]
   },
@@ -75,8 +137,8 @@
     "present": "Completed internship",
     "missions_label": "Missions",
     "highlights_label": "Key contributions",
-    "open_to_work": "Open to work.",
-    "open_to_work_desc": "Available for full-time backend developer positions (Java / Spring Boot).",
+    "open_to_work": "Available for projects.",
+    "open_to_work_desc": "Available for freelance backend, mobile and web development projects.",
     "contact_me": "Get in touch",
     "admira": {
       "role": "Software Developer Intern",
@@ -122,7 +184,9 @@
   "contact": {
     "label": "Contact",
     "title": "Let's work\ntogether",
-    "subtitle": "Open to full-time positions, freelance missions, and interesting projects. I respond quickly.",
+    "subtitle": "Available for freelance projects: backend, mobile, web and AI integration. I respond within 48 h.",
+    "privacy_prefix": "I have read and accept the",
+    "privacy_link": "privacy policy",
     "form": {
       "name": "Name",
       "email": "Email",
@@ -141,6 +205,9 @@
   },
   "footer": {
     "copy": "Omar Mehenni. Built with Next.js & Tailwind CSS.",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "legal": "Legal notice",
+    "privacy": "Privacy",
+    "terms": "Terms"
   }
 }

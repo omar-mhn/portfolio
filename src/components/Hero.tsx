@@ -137,15 +137,26 @@ export default function Hero() {
               </p>
             </motion.div>
 
-            {/* Open to work badge */}
+            {/* Open to work + freelance badges */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.4, delay: 0.55 }}
-              className="inline-flex items-center gap-2 mt-3 px-3 py-1.5 border border-green-500/30 rounded bg-green-500/5"
+              className="flex flex-wrap items-center gap-3 mt-3"
             >
-              <div className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
-              <span className="text-xs font-mono text-green-400 uppercase tracking-widest">Open to work</span>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 border border-green-500/30 rounded bg-green-500/5">
+                <div className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
+                <span className="text-xs font-mono text-green-400 uppercase tracking-widest">{t.hero.open_to_work}</span>
+              </div>
+              <button
+                onClick={() =>
+                  document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })
+                }
+                className="inline-flex items-center gap-2 px-3 py-1.5 border border-accent/30 rounded bg-accent/5 hover:bg-accent/10 transition-colors duration-200"
+              >
+                <span className="text-xs font-mono text-accent">{t.hero.freelance_badge}</span>
+                <span className="text-xs font-mono text-accent/60">→ {t.hero.cta_services}</span>
+              </button>
             </motion.div>
 
             {/* Divider */}

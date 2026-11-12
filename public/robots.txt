@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://omar-mhn.github.io/portfolio/sitemap.xml

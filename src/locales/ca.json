@@ -1,6 +1,7 @@
 {
   "nav": {
     "about": "Sobre mi",
+    "services": "Serveis",
     "skills": "Habilitats",
     "projects": "Projectes",
     "experience": "Experiència",
@@ -15,7 +16,10 @@
     "philosophy": "Dissenyo APIs REST escalables i arquitectures backend robustes amb Java & Spring Boot. Pràctiques finalitzades — disponible per a oportunitats de desenvolupador backend.",
     "cta_projects": "Veure els meus projectes",
     "cta_cv": "Descarregar CV",
-    "location": "Barcelona, Catalunya"
+    "location": "Barcelona, Catalunya",
+    "open_to_work": "Open to work",
+    "freelance_badge": "Disponible per a projectes freelance",
+    "cta_services": "Veure serveis"
   },
   "about": {
     "label": "Sobre mi",
@@ -46,6 +50,64 @@
       {
         "title": "Multilingüe",
         "desc": "Domini de 6 idiomes: Àrab (Natiu), Tamazight (Natiu), Francès (C1), Espanyol (B2), Anglès (B1/B2), Català (A2)."
+      }
+    ]
+  },
+  "services": {
+    "label": "Serveis",
+    "title": "En què puc\najudar-te?",
+    "cta": "Sol·licitar pressupost",
+    "items": [
+      {
+        "title": "Aplicacions web a mida",
+        "description": "Disseny i desenvolupament d'aplicacions web adaptades a les necessitats del teu negoci: panells de gestió, eines internes, plataformes de clients i automatització de processos.",
+        "tags": ["Java", "Spring Boot", "PostgreSQL", "MySQL", "Docker"]
+      },
+      {
+        "title": "Aplicacions mòbils Android",
+        "description": "Desenvolupament d'aplicacions natives per a Android, connectades al teu sistema o serveis, amb codi mantenible i llestes per a la seva publicació.",
+        "tags": ["Kotlin", "Android", "APIs REST"]
+      },
+      {
+        "title": "Backend, APIs i bases de dades",
+        "description": "Disseny de l'arquitectura del servidor, APIs REST segures i bases de dades fiables i optimitzades, amb autenticació i control d'accessos.",
+        "tags": ["Java", "Spring Boot", "PostgreSQL", "MySQL", "JWT"]
+      },
+      {
+        "title": "Integració d'Intel·ligència Artificial",
+        "description": "Incorporació de funcionalitats d'IA a les teves aplicacions i processos mitjançant APIs: assistents, automatització de tasques i anàlisi d'informació.",
+        "tags": ["APIs d'IA", "Java", "Spring Boot"]
+      },
+      {
+        "title": "Desplegament, manteniment i suport",
+        "description": "Posada en producció en contenidors, manteniment evolutiu i correctiu, i suport tècnic continu perquè la teva aplicació segueixi funcionant.",
+        "tags": ["Docker", "Desplegament al núvol", "Suport tècnic"]
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Tarifes",
+    "title": "Tarifes i\npressupostos",
+    "note": "Tots els preus són orientatius i sense IVA (21 %). L'import exacte es detallarà al pressupost escrit.",
+    "cta": "Sol·licitar pressupost gratuït",
+    "items": [
+      {
+        "type": "Desenvolupament",
+        "scope": "Web, mòbil, backend i integració d'IA",
+        "price": "des de 35 €/hora",
+        "detail": "IVA no inclòs (21 %)"
+      },
+      {
+        "type": "Projectes tancats",
+        "scope": "Pressupost personalitzat, gratuït i sense compromís",
+        "price": "Consultar",
+        "detail": "Resposta en menys de 48 h"
+      },
+      {
+        "type": "Manteniment i suport",
+        "scope": "Desplegament, manteniment evolutiu i suport tècnic continu",
+        "price": "Facturació mensual",
+        "detail": "Tarifa segons abast acordat"
       }
     ]
   },
@@ -123,6 +185,8 @@
     "label": "Contacte",
     "title": "Treballem\njunts",
     "subtitle": "Obert a posicions a temps complet, missions freelance i projectes interessants. Responc ràpidament.",
+    "privacy_prefix": "He llegit i accepto la",
+    "privacy_link": "política de privacitat",
     "form": {
       "name": "Nom",
       "email": "Email",
@@ -141,6 +205,9 @@
   },
   "footer": {
     "copy": "Omar Mehenni. Construït amb Next.js & Tailwind CSS.",
-    "rights": "Tots els drets reservats."
+    "rights": "Tots els drets reservats.",
+    "legal": "Avís legal",
+    "privacy": "Privacitat",
+    "terms": "Condicions"
   }
 }
