@@ -126,6 +126,7 @@
     "label": "Projectes",
     "title": "Treballs\nseleccionats",
     "github": "Veure a GitHub",
+    "website": "Visitar el web",
     "type_backend": "Backend",
     "type_mobile": "App Mòbil",
     "type_web": "Web",

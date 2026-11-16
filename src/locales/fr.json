@@ -126,6 +126,7 @@
     "label": "Projets",
     "title": "Travaux\nsélectionnés",
     "github": "Voir sur GitHub",
+    "website": "Visiter le site",
     "type_backend": "Backend",
     "type_mobile": "App Mobile",
     "type_web": "Web",

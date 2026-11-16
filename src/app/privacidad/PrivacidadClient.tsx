@@ -16,9 +16,9 @@ function PrivacidadContent() {
         <h2>1. Data controller</h2>
         <ul>
           <li><strong>Name:</strong> Omar Mehenni</li>
-          <li><strong>NIF/NIE:</strong> <span className="placeholder">[COMPLETAR]</span></li>
-          <li><strong>Address:</strong> <span className="placeholder">[COMPLETAR]</span></li>
-          <li><strong>Email:</strong> <span className="placeholder">[COMPLETAR]</span></li>
+          <li><strong>NIF/NIE:</strong> Z1415623R</li>
+          <li><strong>Address:</strong> Carrer Conca de Tremp, 65, Barcelona</li>
+          <li><strong>Email:</strong> <a href="mailto:omar.mehenni@outlook.com">omar.mehenni@outlook.com</a></li>
         </ul>
 
         <h2>2. Data collected and purposes</h2>
@@ -53,9 +53,9 @@ function PrivacidadContent() {
       <h2>1. Responsable del tratamiento</h2>
       <ul>
         <li><strong>Titular:</strong> Omar Mehenni</li>
-        <li><strong>NIF/NIE:</strong> <span className="placeholder">[COMPLETAR]</span></li>
-        <li><strong>Domicilio:</strong> <span className="placeholder">[COMPLETAR]</span></li>
-        <li><strong>Correo electrónico:</strong> <span className="placeholder">[COMPLETAR]</span></li>
+        <li><strong>NIF/NIE:</strong> Z1415623R</li>
+        <li><strong>Domicilio:</strong> Carrer Conca de Tremp, 65, Barcelona</li>
+        <li><strong>Correo electrónico:</strong> <a href="mailto:omar.mehenni@outlook.com">omar.mehenni@outlook.com</a></li>
       </ul>
 
       <h2>2. Datos recabados y finalidades</h2>

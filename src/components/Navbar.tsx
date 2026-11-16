@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { useI18n } from "@/lib/i18n";
 import LanguageSwitcher from "./LanguageSwitcher";
-import { Download, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const sections = ["about", "services", "skills", "projects", "experience", "certifications", "contact"] as const;
 
@@ -56,14 +56,6 @@ export default function Navbar() {
         {/* Right actions */}
         <div className="hidden lg:flex items-center gap-4">
           <LanguageSwitcher />
-          <a
-            href={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/cv/Omar_Mehenni_CV.pdf`}
-            download="Omar_Mehenni_CV.pdf"
-            className="flex items-center gap-2 px-4 py-2 text-xs font-mono uppercase tracking-widest border border-accent text-accent hover:bg-accent hover:text-background transition-all duration-200 rounded"
-          >
-            <Download size={12} />
-            {t.nav.downloadCV}
-          </a>
         </div>
 
         {/* Mobile hamburger */}
@@ -91,14 +83,6 @@ export default function Navbar() {
             ))}
             <div className="flex items-center justify-between pt-2">
               <LanguageSwitcher />
-              <a
-                href={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/cv/Omar_Mehenni_CV.pdf`}
-                download="Omar_Mehenni_CV.pdf"
-                className="flex items-center gap-2 px-4 py-2 text-xs font-mono uppercase tracking-widest border border-accent text-accent hover:bg-accent hover:text-background transition-all duration-200 rounded"
-              >
-                <Download size={12} />
-                CV
-              </a>
             </div>
           </div>
         </div>

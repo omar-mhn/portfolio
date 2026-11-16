@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PrivacidadClient from "./PrivacidadClient";
 
 export const metadata: Metadata = {
-  title: "Política de privacidad — Omar Mehenni",
+  title: "Política de privacidad",
   description: "Política de privacidad del sitio web omar-mhn.github.io/portfolio, conforme al RGPD y la LOPDGDD.",
 };
 

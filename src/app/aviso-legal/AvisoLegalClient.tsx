@@ -16,9 +16,9 @@ function AvisoLegalContent() {
         <h2>1. Owner details</h2>
         <ul>
           <li><strong>Name:</strong> Omar Mehenni</li>
-          <li><strong>NIF/NIE:</strong> <span className="placeholder">[COMPLETAR]</span></li>
-          <li><strong>Address:</strong> <span className="placeholder">[COMPLETAR]</span></li>
-          <li><strong>Email:</strong> <span className="placeholder">[COMPLETAR]</span></li>
+          <li><strong>NIF/NIE:</strong> Z1415623R</li>
+          <li><strong>Address:</strong> Carrer Conca de Tremp, 65, Barcelona</li>
+          <li><strong>Email:</strong> <a href="mailto:omar.mehenni@outlook.com">omar.mehenni@outlook.com</a></li>
           <li><strong>Activity:</strong> Computer programming services (CNAE 6201)</li>
         </ul>
 
@@ -47,9 +47,9 @@ function AvisoLegalContent() {
       <h2>1. Datos del titular</h2>
       <ul>
         <li><strong>Titular:</strong> Omar Mehenni</li>
-        <li><strong>NIF/NIE:</strong> <span className="placeholder">[COMPLETAR]</span></li>
-        <li><strong>Domicilio:</strong> <span className="placeholder">[COMPLETAR]</span></li>
-        <li><strong>Correo electrónico:</strong> <span className="placeholder">[COMPLETAR]</span></li>
+        <li><strong>NIF/NIE:</strong> Z1415623R</li>
+        <li><strong>Domicilio:</strong> Carrer Conca de Tremp, 65, Barcelona</li>
+        <li><strong>Correo electrónico:</strong> <a href="mailto:omar.mehenni@outlook.com">omar.mehenni@outlook.com</a></li>
         <li><strong>Actividad:</strong> Servicios de programación informática (CNAE 6201)</li>
       </ul>
 

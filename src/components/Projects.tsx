@@ -7,6 +7,22 @@ import { ExternalLink, Github, ArrowUpRight, Construction, Cloud } from "lucide-
 
 const PROJECTS = [
   {
+    id: "alma",
+    title: "Alma",
+    description:
+      "Emotional journal app with AI, published on Google Play. Users write or dictate how they feel; Alma reads each entry, names the emotions it hears and answers with a few questions and a concrete next step. Weekly emotion summaries, gentle streak milestones, an \"Ask Alma\" feature that answers from the user's own journal, data export, and a Pro subscription.",
+    stack: ["Android", "AI integration", "Google Play subscriptions"],
+    role: "Developer",
+    type: "type_mobile",
+    github: "",
+    liveUrl: "https://almaapp.app/",
+    images: ["images/alma.png"] as string[],
+    logo: true,
+    featured: true,
+    inProgress: false,
+    deployment: "",
+  },
+  {
     id: "radioisotopo",
     title: "RadioIsótopo",
     description:
@@ -17,7 +33,7 @@ const PROJECTS = [
     github: "https://github.com/omar-mhn/RadioIsotop_API.git",
     liveUrl: "",
     images: ["images/Logo.svg"] as string[],
-    featured: true,
+    featured: false,
     inProgress: false,
     deployment: "Oracle Cloud (OCI)",
   },
@@ -68,14 +84,14 @@ const PROJECTS = [
   },
 ];
 
-function ProjectImageArea({ images, title, featured }: { images: string[]; title: string; featured: boolean }) {
+function ProjectImageArea({ images, title, featured, logo = false }: { images: string[]; title: string; featured: boolean; logo?: boolean }) {
   if (images.length > 0) {
     return (
-      <div className={`relative overflow-hidden bg-white border-b border-border ${featured ? "h-52" : "h-36"}`}>
+      <div className={`relative overflow-hidden bg-white border-b border-border ${featured ? "h-52 lg:h-full lg:min-h-52" : "h-36"}`}>
         <img
           src={images[0]}
           alt={title}
-          className="w-full h-full object-cover"
+          className={`w-full h-full ${logo ? "object-contain p-10" : "object-cover"}`}
         />
         {images.length > 1 && (
           <div className="absolute bottom-2 right-2 flex gap-1">
@@ -155,7 +171,7 @@ export default function Projects() {
         >
           <div className="group grid lg:grid-cols-2 border border-border hover:border-accent/30 transition-all duration-300 rounded-lg overflow-hidden bg-surface/20">
             <div className="relative">
-              <ProjectImageArea images={featured.images} title={featured.title} featured />
+              <ProjectImageArea images={featured.images} title={featured.title} featured logo={featured.logo} />
               <div className="absolute top-4 left-4">
                 <span className="px-2.5 py-1 text-[10px] font-mono uppercase tracking-widest border border-accent/40 text-accent rounded bg-background/80">
                   Featured
@@ -224,7 +240,17 @@ export default function Projects() {
                 <span className="text-xs font-mono text-muted uppercase tracking-widest">
                   {t.projects[featured.type as keyof typeof t.projects] ?? featured.type}
                 </span>
-                {featured.github && featured.github !== "#" && (
+                {featured.liveUrl ? (
+                  <a
+                    href={featured.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1.5 text-xs font-mono text-accent hover:text-accent/80 transition-colors duration-200"
+                  >
+                    {t.projects.website}
+                    <ArrowUpRight size={12} />
+                  </a>
+                ) : featured.github && featured.github !== "#" && (
                   <a
                     href={featured.github}
                     target="_blank"

@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
-import { Download, ArrowDown, MapPin } from "lucide-react";
+import { ArrowDown, MapPin } from "lucide-react";
 
 const CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%&";
 
@@ -200,14 +200,14 @@ export default function Hero() {
                 />
               </button>
 
-              <a
-                href={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/cv/Omar_Mehenni_CV.pdf`}
-                download="Omar_Mehenni_CV.pdf"
+              <button
+                onClick={() =>
+                  document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })
+                }
                 className="flex items-center gap-3 px-6 py-3 border border-white/20 text-white/70 font-display font-semibold text-sm uppercase tracking-widest hover:border-accent/60 hover:text-accent transition-all duration-200 rounded"
               >
-                <Download size={14} />
-                {t.hero.cta_cv}
-              </a>
+                {t.hero.cta_services}
+              </button>
             </motion.div>
           </div>
 
