@@ -10,8 +10,8 @@ const PROJECTS = [
     id: "alma",
     title: "Alma",
     description:
-      "Emotional journal app with AI, published on Google Play. Users write or dictate how they feel; Alma reads each entry, names the emotions it hears and answers with a few questions and a concrete next step. Weekly emotion summaries, gentle streak milestones, an \"Ask Alma\" feature that answers from the user's own journal, data export, and a Pro subscription.",
-    stack: ["Android", "AI integration", "Google Play subscriptions"],
+      "Emotional journal app with AI, currently in testing. Users write or dictate how they feel; Alma reads each entry, names the emotions it hears and answers with a few questions and a concrete next step. Weekly emotion summaries, gentle streak milestones, an \"Ask Alma\" feature that answers from the user's own journal, data export, and a Pro subscription.",
+    stack: ["Android", "AI integration"],
     role: "Developer",
     type: "type_mobile",
     github: "",
